@@ -1,0 +1,32 @@
+.featured{
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 15px;
+   
+    
+   
+}
+
+.featuredItem{
+   position: relative;
+  
+    height: 250px;
+    
+}
+.featuredImg{ 
+   
+    gap: 5px;
+    border-radius: 20px;
+     width: 100%; /*neu cho width == 100% la tu can anh luon */
+}
+
+.featuredTitles{
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    color: white;
+    font-weight: 800;
+}

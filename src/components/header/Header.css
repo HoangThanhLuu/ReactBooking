@@ -1,123 +1,116 @@
-.header{
-    width: 100%;
-    height: 300px;
-    background-color: #003580;
-    display: flex;
-    justify-content: center;
-    position: relative;
-
+.header {
+  width: 100%;
+  height: 300px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
-.headerContainer{
-    width: 100%;
-    max-width: 1024px;
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
 }
-.headerList{
-   
-    display: flex;
-    justify-content: flex-start;
-    margin: 20px 0px 30px 0px;
-    gap: 40px;
+.headerList {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px 30px 0px;
+  gap: 40px;
 }
-.headerListItem{
-    font-size: 20px;
-    display: flex;
-    gap: 10px;
-    color: white;
-
+.headerListItem {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  color: white;
 }
 
-
-.headerListItem.active{
-    border: 1px solid white;
-    padding: 0px 5px 0px 5px;
-    border-radius: 10px;
-   
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 0px 5px 0px 5px;
+  border-radius: 10px;
 }
 
-.headerTitle{
-    display: flex;
-    justify-content: start;
-    color: white;
+.headerTitle {
+  display: flex;
+  justify-content: start;
+  color: white;
 }
-.headerDesc{
-    display: flex;
-    justify-content: start;
-    color: white;
+.headerDesc {
+  display: flex;
+  justify-content: start;
+  color: white;
 }
-.btnSingR{
-    display: flex;
-    justify-content: flex-start;
-    background-color: #003580;
-    color: white;
-    font-weight: 800;
-}
-
-.headerSearch{
-    width: 100%;
-    max-width: 1024px;
-    background-color: white;
-    border: 2px solid orange;
-    border-radius: 10px;
-    display: flex;
-    padding: 15px;
-    justify-content: space-around;
-    position: absolute;
-    bottom: -25px;
+.btnSingR {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #003580;
+  color: white;
+  font-weight: 800;
 }
 
-.headerSearchItems{
-    display: flex;
-    gap: 10px;
-}
-.headerSearchInput{
-    border: none;
-    outline: none;
-}
-.headerSearchIcon{
-    font-size: 20px;
-}
-.headerSearchDateRange{
-    position: absolute;
-   top: 60px;
+.headerSearch {
+  width: 100%;
+  max-width: 1024px;
+  background-color: white;
+  border: 2px solid orange;
+  border-radius: 10px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -25px;
 }
 
-.options{
-    z-index: 2;
-    border-radius: 10px;
-    background-color: aliceblue;
-    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    
+.headerSearchItems {
+  display: flex;
+  gap: 10px;
+}
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+.headerSearchIcon {
+  font-size: 20px;
+}
+.headerSearchDateRange {
+  position: absolute;
+  top: 60px;
+  z-index: 2;
 }
 
-.optionsItems{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    text-align: center;
-   
-} 
-.optionCouter{
-    display: flex;
-    gap: 5px;
+.options {
+  z-index: 2;
+  border-radius: 10px;
+  background-color: aliceblue;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
 }
-.optionCouterBtn:disabled{
-    cursor: no-drop;
+
+.optionsItems {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  text-align: center;
 }
-.headerSearchItem{
-    margin-left: 30px;
+.optionCouter {
+  display: flex;
+  gap: 5px;
 }
-.headerBtn{
-    background-color: #003580;
-    padding: 10px;
-    color: white;
-    font-weight: 700;
-    border-radius: 10px;
-   
+.optionCouterBtn:disabled {
+  cursor: no-drop;
+}
+.headerSearchItem {
+  margin-left: 30px;
+}
+.headerBtn {
+  background-color: #003580;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
 }
